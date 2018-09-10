@@ -50,7 +50,6 @@
 			box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
 			border-radius: 4px;
 			display: inline-grid;
-			padding: 40px 40px;
 		}
 		.jsCalendar thead .jsCalendar-title {
 			height: 40%;
@@ -71,7 +70,7 @@
 			font-weight: bold;
 			height: 20px;
 			width: 20px;
-			margin: 30px 8px;
+			margin: 10px 8px;
 			text-align: center;
 			line-height: 20px;
 			cursor: pointer;
@@ -93,7 +92,7 @@
 		.jsCalendar thead .jsCalendar-title-name {
 			font-size: 30px;
 			font-weight: lighter;
-			padding: 20px 20px;
+			padding: 0px 20px;
 			cursor: default;
 			display: inline-block;
 		}
@@ -108,7 +107,7 @@
 		}
 		.jsCalendar thead .jsCalendar-week-days th,
 		.jsCalendar tbody td {
-			height: 80%;
+			height: 100%;
 			width: 100px;
 			margin: 1px 2px;
 			line-height: 70px;
