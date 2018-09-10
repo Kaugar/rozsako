@@ -9,7 +9,7 @@
 <head>
 	<title>Rózsakő ház - Badacsony</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -20,10 +20,13 @@
 			margin: auto;
 			background-color: rgba(29, 36, 42, 0.9);
 			/* The height is 400 pixels */
-			width: 70%;
+			width: 100%;
 			/* The width is the width of the web page */
-			@media screen {
-				width: 100%
+		}
+
+		@media (min-width: 700px) {
+			#map {
+				width: 70%;
 			}
 		}
 	</style>
